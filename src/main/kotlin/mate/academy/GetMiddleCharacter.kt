@@ -11,7 +11,7 @@ fun getMiddleString(originalString: String): String {
     val mid = length / 2
 
     return if (length % 2 == 0) {
-        originalString.subsring(mid - 1, mid + 1)
+        originalString.substring(mid - 1, mid + 1)
     } else {
         originalString[mid].toString()
     }
